@@ -121,7 +121,7 @@ public class EventControllerIT {
         );
 
         // assert
-        assertEquals(HttpStatus.OK, response.getStatusCode());
+        assertEquals(HttpStatus.BAD_REQUEST, response.getStatusCode());
     }
 
     private void save() {
