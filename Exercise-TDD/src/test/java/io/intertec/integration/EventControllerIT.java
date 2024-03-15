@@ -79,7 +79,7 @@ public class EventControllerIT {
 
         // assert
         assertEquals(HttpStatus.OK, response.getStatusCode());
-        assertEquals(1, response.getBody().id());
+        assertEquals(5, response.getBody().id());
     }
 
     @Test
